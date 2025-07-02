@@ -12,19 +12,22 @@ struct ContentView: View {
         VStack {
             Text("My name is Amatullah Lonandwala")
                 .font(.title)
-                .foregroundColor(Color.pink)
+                .fontWeight(.bold)
+                .foregroundColor(Color.indigo)
             Image("headshot")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
             Text("I love to read!!")
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(Color.purple)
+                .foregroundColor(Color.indigo)
             Image("books1")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
         }
         .padding()
+        .background(Color.pink)
+
     }
 }
 
