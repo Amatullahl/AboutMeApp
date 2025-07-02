@@ -16,6 +16,10 @@ struct ContentView: View {
             Image("headshot")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
+            Text("I love to read!!")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color.purple)
         }
         .padding()
     }
