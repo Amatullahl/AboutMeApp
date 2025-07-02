@@ -20,6 +20,9 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(Color.purple)
+            Image("books1")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
         }
         .padding()
     }
