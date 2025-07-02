@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("My name is Amatullah Lonandwala")
+                .font(.title)
+                .foregroundColor(Color.pink)
+            Image("headshot")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
         }
         .padding()
     }
